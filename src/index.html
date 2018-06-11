@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Vacant Homes</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<link rel="stylesheet" href="./css/main.css">
+		<script src="./js/homes.js"></script>
+	</head>
+	
+	<body>
+		<nav class="navigation">
+			<a href="#" class="logo">Vacant Homes</a>				  
+			<ul>
+			  <li><a href="#">About</a></li>
+			  <li><a href="#">Contact Us</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<h3>Welcome to Vacant Homes! This project is part of Code for Ireland.<br/>
+				This site is currently under construction. We will be there soon!</h3>
+			<div id="itemlistcontainer">
+				<h3>Available Homes</h3>
+				<div ng-app="readHomes">
+				<div class="homes-grid" ng-controller="homeController">
+					<ul class="home" ng-repeat="home in homes">                      
+						<li class="address"><strong>Home's Address:</strong><br/>
+							<span>{{(home.full_address).split(", ").join("\n")}}</span></li>
+						<li><span><strong>Home's County:</strong> {{home.county}}</span></li>
+						<li><span><strong>House Type:</strong> {{home.house_type}}</span></li>
+						<li><span><strong>Home's Id Number:</strong> {{home.id}}</span></li>
+					</ul>
+			</div>
+		</div>		
+	</body>
+</html>
