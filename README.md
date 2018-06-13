@@ -4,7 +4,8 @@ Vacant Homes - Frontend for the the web
 
 ## Getting Started
 The website requires a http server for the file reading to work.
-Please note that if you try to open directly from the file, Chrome return an error that only http, https protocols are allowed to read from the file. On my local machine I installed that npm module to run code on the local server 
+Please note that if you try to open directly from the file, Chrome will return an error that only HTTP, HTTPS protocols are allowed to read from the file. 
+On my local machine you will need to run the code on the local server 
 
 One possible option: 
 https://www.npmjs.com/package/http-server
