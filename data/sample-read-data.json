@@ -1,41 +1,44 @@
 [
-	{
-		"id": 123,
-		"house_type": "House",
-		"latitude": 53.3463227,
-		"longitude": -6.2603097,
-		"full_address": "Address Line 1, Address Line 2, Address Line 3, City, County",
-		"county": "Dublin",
-		"date_submitted": 1527980400000,
-		"grass_overgrown": true,
-		"windows_blocked": false,
-		"activity_found": true,
-		"comments": ""
-	},
-	{
-		"id": 124,
-		"house_type": "House",
-		"latitude": 53.34632245,
-		"longitude": -6.2603087,
-		"full_address": "Address Line 1, Address Line 2, Address Line 3, City, County",
-		"county": "Dublin",
-		"date_submitted": 1527980350000,
-		"grass_overgrown": true,
-		"windows_blocked": true,
-		"activity_found": false,
-		"comments": ""
-	},
-	{
-		"id": 125,
-		"house_type": "House in row",
-		"latitude": 53.34632245,
-		"longitude": -6.2603087,
-		"full_address": "Address Line 1, Address Line 2, Address Line 3, City, County",
-		"county": "Kildare",
-		"date_submitted": 1527980350000,
-		"grass_overgrown": true,
-		"windows_blocked": true,
-		"activity_found": false,
-		"comments": ""
-	}
+  {
+    "id": 123,
+    "house_type": "House",
+    "latitude": 53.3463227,
+    "longitude": -6.2603097,
+    "full_address":
+      "Address Line 1, Address Line 2, Address Line 3, City, County",
+    "county": "Dublin",
+    "date_submitted": 1527980400000,
+    "grass_overgrown": true,
+    "windows_blocked": false,
+    "activity_found": true,
+    "comments": ""
+  },
+  {
+    "id": 124,
+    "house_type": "House",
+    "latitude": 53.34632245,
+    "longitude": -6.2603087,
+    "full_address":
+      "Address Line 1, Address Line 2, Address Line 3, City, County",
+    "county": "Dublin",
+    "date_submitted": 1527980350000,
+    "grass_overgrown": true,
+    "windows_blocked": true,
+    "activity_found": false,
+    "comments": ""
+  },
+  {
+    "id": 125,
+    "house_type": "House in row",
+    "latitude": 53.34632245,
+    "longitude": -6.2603087,
+    "full_address":
+      "Address Line 1, Address Line 2, Address Line 3, City, County",
+    "county": "Kildare",
+    "date_submitted": 1527980350000,
+    "grass_overgrown": true,
+    "windows_blocked": true,
+    "activity_found": false,
+    "comments": ""
+  }
 ]
