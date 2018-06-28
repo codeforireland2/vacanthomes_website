@@ -33,3 +33,7 @@ Client is currently paired with a mock API (i.e. without proper auth flow). To m
 
 To generate a set of static files that can be uploaded to a http server, run
 `yarn build`
+
+## Screenshots
+
+Are saved in [/screenshots](https://github.com/codeforireland2/vacanthomes_website/tree/master/screenshots)
